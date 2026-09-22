@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mushhhh 🍄 | Loja de Mush</title>
+  <meta name="description" content="Loja Mushhhh - compre Mush de forma rápida e segura através de PIX.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f1117;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      padding: 24px 7%;
+      background: #171a22;
+      border-bottom: 1px solid #292d38;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo { font-size: 25px; font-weight: 800; }
+    .logo span { color: #63d98b; }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 22px;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 80px 7%;
+      text-align: center;
+      background: radial-gradient(circle at top, #26352d 0, #0f1117 55%);
+    }
+    .hero h1 { font-size: clamp(38px, 7vw, 68px); margin-bottom: 15px; }
+    .hero h1 span { color: #63d98b; }
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      color: #c9cdd5;
+      font-size: 18px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 26px;
+      border-radius: 10px;
+      background: #39b96b;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+    }
+    section { padding: 65px 7%; }
+    .title { text-align: center; margin-bottom: 35px; }
+    .title h2 { font-size: 32px; }
+    .title p { color: #aeb4bf; margin-top: 8px; }
+    .prices {
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+    .price {
+      background: #181b24;
+      border: 1px solid #292e39;
+      border-radius: 13px;
+      padding: 20px;
+      text-align: center;
+    }
+    .price strong { display: block; font-size: 22px; }
+    .price span { color: #63d98b; font-size: 20px; font-weight: 800; }
+    .cards {
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #181b24;
+      border: 1px solid #292e39;
+      border-radius: 15px;
+      padding: 25px;
+    }
+    .card h3 { margin-bottom: 9px; }
+    .card p { color: #b9bec8; }
+    .notice {
+      max-width: 900px;
+      margin: auto;
+      background: #171a22;
+      border: 1px solid #292e39;
+      border-radius: 15px;
+      padding: 25px;
+      color: #c8ccd4;
+    }
+    footer {
+      padding: 35px 7%;
+      text-align: center;
+      background: #171a22;
+      border-top: 1px solid #292d38;
+      color: #9299a5;
+    }
+    @media (max-width: 650px) {
+      header { flex-direction: column; gap: 12px; }
+      header a { margin: 0 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🍄 <span>Mushhhh</span></div>
+  <nav>
+    <a href="#precos">Preços</a>
+    <a href="#como-funciona">Como funciona</a>
+    <a href="#termos">Termos</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Compre <span>Mush</span> de forma simples 🍄</h1>
+  <p>
+    Escolha a quantidade desejada, realize o pagamento via PIX
+    e aguarde a confirmação. Após a confirmação, a equipe responsável
+    realiza a entrega do Mush.
+  </p>
+  <a class="button" href="#precos">Ver preços</a>
+</section>
+
+<section id="precos">
+  <div class="title">
+    <h2>💰 Tabela de preços</h2>
+    <p>Valores disponíveis na loja.</p>
+  </div>
+
+  <div class="prices">
+    <div class="price"><strong>50K</strong><span>R$ 2,50</span></div>
+    <div class="price"><strong>120K</strong><span>R$ 6,00</span></div>
+    <div class="price"><strong>180K</strong><span>R$ 9,00</span></div>
+    <div class="price"><strong>200K</strong><span>R$ 10,00</span></div>
+    <div class="price"><strong>280K</strong><span>R$ 14,00</span></div>
+    <div class="price"><strong>350K</strong><span>R$ 17,50</span></div>
+    <div class="price"><strong>400K</strong><span>R$ 20,00</span></div>
+    <div class="price"><strong>450K</strong><span>R$ 22,50</span></div>
+    <div class="price"><strong>500K</strong><span>R$ 25,00</span></div>
+    <div class="price"><strong>550K</strong><span>R$ 27,50</span></div>
+    <div class="price"><strong>600K</strong><span>R$ 30,00</span></div>
+    <div class="price"><strong>650K</strong><span>R$ 32,50</span></div>
+    <div class="price"><strong>700K</strong><span>R$ 35,00</span></div>
+    <div class="price"><strong>750K</strong><span>R$ 37,50</span></div>
+    <div class="price"><strong>800K</strong><span>R$ 40,00</span></div>
+    <div class="price"><strong>850K</strong><span>R$ 42,50</span></div>
+    <div class="price"><strong>900K</strong><span>R$ 45,00</span></div>
+    <div class="price"><strong>1M</strong><span>R$ 50,00</span></div>
+  </div>
+</section>
+
+<section id="como-funciona">
+  <div class="title">
+    <h2>🛒 Como funciona?</h2>
+    <p>O processo é simples.</p>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>1️⃣ Escolha</h3>
+      <p>Escolha a quantidade de Mush que deseja comprar.</p>
+    </div>
+    <div class="card">
+      <h3>2️⃣ Pague via PIX</h3>
+      <p>O pagamento é realizado através de PIX.</p>
+    </div>
+    <div class="card">
+      <h3>3️⃣ Confirmação</h3>
+      <p>O sistema verifica automaticamente a confirmação do pagamento.</p>
+    </div>
+    <div class="card">
+      <h3>4️⃣ Entrega</h3>
+      <p>Após a confirmação, a equipe responsável realiza a entrega.</p>
+    </div>
+  </div>
+</section>
+
+<section id="termos">
+  <div class="title">
+    <h2>📜 Informações da loja</h2>
+  </div>
+  <div class="notice">
+    <p><strong>Pagamento:</strong> PIX.</p>
+    <p><strong>Entrega:</strong> realizada após a confirmação do pagamento.</p>
+    <p><strong>Suporte:</strong> atendimento através do Discord oficial da loja.</p>
+    <p><strong>Segurança:</strong> nunca compartilhe senhas, códigos de autenticação ou dados pessoais desnecessários.</p>
+    <br>
+    <p>
+      Os produtos vendidos nesta página são recursos virtuais relacionados ao jogo.
+      A disponibilidade, regras de uso e condições de entrega podem estar sujeitas
+      às regras do jogo e da plataforma correspondente.
+    </p>
+  </div>
+</section>
+
+<footer>
+  🍄 Mushhhh — Loja de Mush<br>
+  © 2026 Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
